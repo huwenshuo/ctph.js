@@ -1,8 +1,14 @@
 # The ctph.js
 
-JavaScript library for calculating context triggered piecewise hash(CTPH, also called fuzzy hashing). CTPH can be used to identify similar or almost identical text, the library can works both on NodeJS and browser.
+JavaScript library for calculating context triggered piecewise hash(CTPH, also called fuzzy hashing). CTPH can be used to identify similar or almost identical content(text,img,etc.), the library can works both on NodeJS and browser.
 
 More information about CTPH: [Identifying almost identical files using context triggered piecewise hashing](http://dfrws.org/2006/proceedings/12-Kornblum.pdf "Title")
+
+# Install
+
+```
+npm install ctph.js
+```
 
 # Example
 

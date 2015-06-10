@@ -14,7 +14,7 @@
     "author": "huwenshuo <huwenshuo@gmail.com>",
     "repository": {
         "type": "git",
-        "url": "git://github.com/huwenshuo/ctph.js.git"
+        "url": "https://github.com/huwenshuo/ctph.js.git"
     },
     "main": "ctph.js",
     "version": "0.0.1"
