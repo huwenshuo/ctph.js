@@ -104,11 +104,11 @@
             h2 = fnv(h2, bytes[i]);
             rh.update(bytes[i]);
             if (i === len - 1 || rh.sum() % triggerValue === (triggerValue - 1)) {
-                signatures[0] += B64[h1&63];
+                signatures[0] += B64.charAt(h1&63);
                 h1 = HASH_INIT;
             }
             if (i === len - 1 || rh.sum() % (triggerValue * 2) === (triggerValue * 2 - 1) ) {
-                signatures[1] += B64[h2&63];
+                signatures[1] += B64.charAt(h2&63);
                 h2 = HASH_INIT;
             }
         }
@@ -124,7 +124,7 @@
         while (bi>0 && signatures[0].length < 32){
             signatures = piecewiseHash(bytes, minb << --bi);
         }
-        return B64[bi] + ':' + signatures[0] + ':' + signatures[1];
+        return B64.charAt(bi) + ':' + signatures[0] + ':' + signatures[1];
     }
 
     function matchScore (s1, s2) {
@@ -154,6 +154,3 @@
         }
     };
 })();
-
-
-
