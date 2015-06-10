@@ -1,0 +1,21 @@
+{
+    "name": "ctph.js",
+    "description": "JavaScript's library for calculating context triggered piecewise hash(CTPH) also called fuzzy hashing.",
+    "keywords": [
+        "fuzzy",
+        "hashing",
+        "context",
+        "triggered",
+        "piecewise",
+        "hash",
+        "ctph",
+        "ssdeep"
+    ],
+    "author": "huwenshuo <huwenshuo@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/huwenshuo/ctph.js.git"
+    },
+    "main": "ctph.js",
+    "version": "0.0.1"
+}
