@@ -27,3 +27,6 @@ var rd1 = ctph.digest(crypto.randomBytes(4096));
 var rd2 = ctph.digest(crypto.randomBytes(4096));
 var rsimilarity = ctph.similarity(rd1, rd2); //nears 0
 ```
+
+# License
+MIT
