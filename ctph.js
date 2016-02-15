@@ -135,7 +135,7 @@
 
     ctph.digest = function (data) {
         if (typeof data === 'string') {
-            data = isBrowser?toUTF8Array(data):new Buffer(data).toJSON();
+            data = isBrowser?toUTF8Array(data):new Buffer(data).toJSON().data;
         }
         return digest(data);
     };
